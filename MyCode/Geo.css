@@ -1,0 +1,38 @@
+body {
+            background: 
+               linear-gradient(
+                rgba(2, 6, 23, 0.75),
+                rgba(2, 6, 23, 0.9)
+               ),
+               url(https://upload-os-bbs.hoyolab.com/upload/2023/05/21/109890615/84d80b461f3533878ed52b25485ffba9_7295982462235192467.jpeg);
+            background: cover;
+            background-position: center top;
+            background-attachment: fixed;
+}
+
+.home-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #dabb0e;
+
+    background: rgba(15, 23, 42, 0.6);
+    padding: 10px 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.home-link:hover {
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #020617;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(139, 92, 246, 0.6), 0 0 30px rgba(236, 72, 153, 0.6);
+}
